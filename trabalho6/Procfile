@@ -1,1 +1,8 @@
 web: java $JAVA_OPTS -jar target/dependency/webapp-runner.jar --port $PORT target/*.war
+
+JDBC_DATABASE_URL:jdbc:postgresql://ec2-54-243-46-32.compute-1.amazonaws.com:5432/dcj6og86u2hkvf?user=hgpejfatnuurhg&password=44b387709249e6f14b11df5671251b93c1b0986230c0a6fe28c5ee5c57bbf498&sslmode=require
+
+JDBC_DATABASE_USERNAME:hgpejfatnuurhg
+
+JDBC_DATABASE_PASSWORD:44b387709249e6f14b11df5671251b93c1b0986230c0a6fe28c5ee5c57bbf498
+
