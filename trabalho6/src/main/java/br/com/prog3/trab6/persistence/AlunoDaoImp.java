@@ -15,7 +15,7 @@ public class AlunoDaoImp implements AlunoDao {
 	
 	public String save(Aluno aluno) {		
 		SessionFactory sessionFactory = new Configuration().configure().buildSessionFactory();
-		Session session = sessionFactory.openSession();
+		Session session = sessionFactory.openSession();		
 		
 		try {			
 			session.beginTransaction();
@@ -33,6 +33,7 @@ public class AlunoDaoImp implements AlunoDao {
 			
 		}finally {
 			session.close();
+			session.getSessionFactory().close();
 		}
 	}
 
@@ -52,6 +53,7 @@ public class AlunoDaoImp implements AlunoDao {
 			
 		}finally {
 			session.close();
+			session.getSessionFactory().close();
 		}
 		
 	}
@@ -77,6 +79,7 @@ public class AlunoDaoImp implements AlunoDao {
 			
 		}finally {
 			session.close();
+			session.getSessionFactory().close();
 		}
 	
 	}
@@ -87,6 +90,7 @@ public class AlunoDaoImp implements AlunoDao {
 		@SuppressWarnings("unchecked")
 		List<Aluno> AlunoList = session.createQuery("FROM Aluno").getResultList();
 		session.close();
+		session.getSessionFactory().close();
 		return AlunoList;
 	}
 
