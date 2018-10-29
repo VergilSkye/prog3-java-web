@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+ 
+<hibernate-configuration>
+    <session-factory>
+ 
+        <!-- Connection settings -->
+        <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+        <property name="hibernate.connection.url">jdbc:postgresql://ec2-54-243-46-32.compute-1.amazonaws.com:5432/dcj6og86u2hkvf?</property>
+        <property name="hibernate.connection.username">hgpejfatnuurhg</property>
+        <property name="hibernate.connection.password">44b387709249e6f14b11df5671251b93c1b0986230c0a6fe28c5ee5c57bbf498</property>        
+         
+ 
+        <!-- SQL dialect -->
+        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+ 
+        <!-- Print executed SQL to stdout -->
+        <property name="show_sql">true</property>
+ 
+        <!-- Update database on startup -->
+        <property name="hibernate.hbm2ddl.auto">update</property>
+ 
+        <!-- Annotated entity classes -->
+        <mapping class="br.com.prog3.trab6.model.Aluno"/>
+        
+    </session-factory>
+</hibernate-configuration>
