@@ -34,4 +34,4 @@ Crie um um arquivo chamado ProcFile com as informações do seu banco de dados p
 web: java -Dhibernate_db_name=${YOUR_DATABASE_URL} -Dhibernate_username=${YOUR_DATABASE_LOGIN} -Dhibernate_password=${YOUR_DATABASE_PASSWORD} $JAVA_OPTS -jar target/dependency/webapp-runner.jar --port $PORT target/*.war 
 ```
 
-Agora é só utilizar um server ~~(tomcat ou outro)~~ e testar localmente.
+Agora é só utilizar um server ~~(tomcat ou webapp runner)~~ e testar localmente.
