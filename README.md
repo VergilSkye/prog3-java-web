@@ -8,7 +8,7 @@
 ### Tarefas
 ------------
 - [x] [Trabalho 6](https://nead.ifb.edu.br/pluginfile.php/312324/mod_resource/content/0/Trabalho6.pdf)
-- [ ] [Trabalho 7]()
+- [x] [Trabalho 7]()
 ------------
 ### Links Úteis Para os Projetos
 ------------
