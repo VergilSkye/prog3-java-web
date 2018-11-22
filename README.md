@@ -14,7 +14,7 @@
 ------------
 Trabalho 6 | Trabalho 7
 ------------ | -------------
-[Pasta ](https://github.com/VergilSkye/prog3-java-web/tree/master/trabalho6) | [Pasta ]()
+[Pasta ](https://github.com/VergilSkye/prog3-java-web/tree/master/trabalho6) | [Pasta ](https://github.com/VergilSkye/prog3-java-web/tree/master/trabalho7)
 [Site Funcional ](https://infinite-bayou-16512.herokuapp.com/) | [Site Funcional ]()
 ------------
 
