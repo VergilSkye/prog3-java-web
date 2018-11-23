@@ -8,17 +8,17 @@
 ### Tarefas
 ------------
 - [x] [Trabalho 6](https://nead.ifb.edu.br/pluginfile.php/312324/mod_resource/content/0/Trabalho6.pdf)
-- [x] [Trabalho 7]()
+- [x] [Trabalho 7](https://nead.ifb.edu.br/pluginfile.php/315014/mod_resource/content/0/Aula14.pdf)
 ------------
 ### Links Úteis Para os Projetos
 ------------
 Trabalho 6 | Trabalho 7
 ------------ | -------------
-[Pasta ](https://github.com/VergilSkye/prog3-java-web/tree/master/trabalho6) | [Pasta ](https://github.com/VergilSkye/prog3-java-web/tree/master/trabalho7)
-[Site Funcional ](https://infinite-bayou-16512.herokuapp.com/) | [Site Funcional ]()
+[Pasta ](https://github.com/VergilSkye/prog3-java-web/tree/master/trabalho6) | [Pasta ](https://github.com/VergilSkye/prog3-java-web-2)
+[Site Funcional ](https://infinite-bayou-16512.herokuapp.com/) | [Site Funcional ](https://agile-dawn-72784.herokuapp.com)
 ------------
 
-### Uso
+### Uso do trabalho 6
 ------------
 Clone o diretório
 ``` 
